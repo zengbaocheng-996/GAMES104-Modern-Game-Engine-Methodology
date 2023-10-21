@@ -9,7 +9,7 @@
 
 ### 代码结构
 
-| 文件名                                                       | 目的                              |
+| .\                                                           | 目的                              |
 | ------------------------------------------------------------ | --------------------------------- |
 | build                                                        | cmake . -B build 后生成的工程     |
 | .github<br />.gitlab<br />.clang-format<br />.clang-tidy<br />.gitignore | 各个工具配置文件                  |
@@ -18,7 +18,7 @@
 | LICENSE<br />README.md<br />ReleaseNotes.md                  | \                                 |
 | engine (如下表)                                              | \                                 |
 
-| engine\文件名              | 目的                                                     |
+| .\engine\                  | 目的                                                     |
 | -------------------------- | -------------------------------------------------------- |
 | 3rdparty                   | 第三方库或二进制库                                       |
 | asset                      | 引擎启动默认关卡需要的组成                               |
@@ -31,22 +31,22 @@
 | CMakeList.txt              | 指明工程是如何构建的                                     |
 | source (如下表)            | \                                                        |
 
-| engine\source\文件名 | 目的                                                         |
-| -------------------- | ------------------------------------------------------------ |
-| _generated           | 引擎生成所需功能性代码                                       |
-| editor               | 编辑器源代码                                                 |
-| meta_parser          | PiccoloParser 源代码                                         |
-| precompile           | CMake 脚本和配置文件 引擎构建前命令 PiccoloParse 解析源代码 生成所需功能性代码 |
-| .gitignore           | 指定不加入版本仓库的文件                                     |
-| text                 | 单元测试和其他测试代码                                       |
-| runtime (如下表)     | 引擎核心                                                     |
+| .\engine\source\ | 目的                                                         |
+| ---------------- | ------------------------------------------------------------ |
+| _generated       | 引擎生成所需功能性代码                                       |
+| editor           | 编辑器源代码                                                 |
+| meta_parser      | PiccoloParser 源代码                                         |
+| precompile       | CMake 脚本和配置文件 引擎构建前命令 PiccoloParse 解析源代码 生成所需功能性代码 |
+| .gitignore       | 指定不加入版本仓库的文件                                     |
+| text             | 单元测试和其他测试代码                                       |
+| runtime (如下表) | 引擎核心                                                     |
 
-| engine\source\runtime\文件名 | 目的                      |
-| ---------------------------- | ------------------------- |
-| CMakeLists.txt               | 指定 runtime 工程如何构建 |
-| engine.cpp<br />engine.h     | 引擎入口                  |
-| function                     | Function Layer            |
-| resource                     | Resource Layer            |
-| core                         | Core Layer                |
-| platform                     | Platform Layer            |
+| .\engine\source\runtime\ | 目的                      |
+| ------------------------ | ------------------------- |
+| CMakeLists.txt           | 指定 runtime 工程如何构建 |
+| engine.cpp<br />engine.h | 引擎入口                  |
+| function                 | Function Layer            |
+| resource                 | Resource Layer            |
+| core                     | Core Layer                |
+| platform                 | Platform Layer            |
 
