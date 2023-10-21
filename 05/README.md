@@ -139,13 +139,11 @@ namespace Piccolo
 ###### engine/asset/objects/character/player/player.object.json
 
 ```json
-...
 {
 	"$context": {
 	"lua_script": "print(\"c++ call lua\")"
 	},
 	"$typeName": "LuaComponent"
 }
-...
 ```
 
