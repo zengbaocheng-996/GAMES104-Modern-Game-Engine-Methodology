@@ -6,6 +6,7 @@
 | 02    | Rendering                  | 渲染                  |
 | 03    | Animation and Physics      | 动画和物理            |
 | 04    | Tool Chains                | 工具链                |
+| 05    | C++ Call Lua               | 每帧执行 Lua 脚本     |
 
 ### 代码结构
 
